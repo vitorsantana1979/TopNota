@@ -1,0 +1,16 @@
+**/bin
+**/obj
+**/.vs
+**/.idea
+**/.vscode
+**/node_modules
+**/*.user
+**/*.swp
+**/.DS_Store
+**/dist
+**/coverage
+Dockerfile
+docker-compose.yml
+.git
+.gitignore
+.env

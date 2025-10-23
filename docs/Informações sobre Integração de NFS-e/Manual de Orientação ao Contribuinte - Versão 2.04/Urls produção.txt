@@ -1,0 +1,3 @@
+Código do Município: 520140
+Série do RPS: 1
+WebService: https://nfse.issnetonline.com.br/abrasf204/goiania/nfse.asmx

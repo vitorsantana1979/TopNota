@@ -1,0 +1,8 @@
+-- 0009_tenant_logo.sql
+SET ANSI_PADDING ON; SET ANSI_NULLS ON; SET QUOTED_IDENTIFIER ON;
+
+IF COL_LENGTH('dbo.tenants','logo') IS NULL
+BEGIN
+  ALTER TABLE dbo.tenants ADD logo VARBINARY(MAX) NULL, logo_content_type NVARCHAR(100) NULL;
+END
+
